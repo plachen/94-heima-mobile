@@ -1,5 +1,17 @@
 <template>
-  <div>问答页面</div>
+  <div>
+      <!-- 简单填充 -->
+      <div class="split"></div>
+      <van-skeleton title avatar :row="3" />
+         <div class="split"></div>
+      <van-skeleton title avatar :row="3" />
+         <div class="split"></div>
+      <van-skeleton title avatar :row="3" />
+         <div class="split"></div>
+      <van-skeleton title avatar :row="3" />
+         <div class="split"></div>
+      <van-skeleton title avatar :row="3" />
+  </div>
 </template>
 
 <script>
