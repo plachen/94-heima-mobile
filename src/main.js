@@ -9,6 +9,7 @@ import 'vant/lib/index.css' // 引入vant 组件的样式文件 在vant底下找
 // 在性能优化阶段做 按需引入最佳
 // 以上就完成 Vant的注册 我们可以在任意位置使用
 import 'amfe-flexible'
+import '@/styles/index.less' // 引入全局的自定义样式  因为要覆盖vant的样式
 Vue.use(Vant) // 注册组件库
 Vue.config.productionTip = false
 
